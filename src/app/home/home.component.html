@@ -1,0 +1,46 @@
+
+<app-header></app-header>
+
+<div class="container">
+  <div class="dashboard">
+      
+      <div class="dash-btn meal">
+          <a [routerLink]="['/meal']" routerLinkActive="router-link-active">
+            <div class="dash-head">
+              <h3>Meal Planner</h3>
+            </div>
+          </a>
+      </div>
+      <div class="dash-btn form">
+          <a [routerLink]="['/form']" routerLinkActive="router-link-active">
+            <div class="dash-head">
+              <h3>Form Builder</h3>
+            </div>
+            
+          </a>
+      </div>
+      <div class="dash-btn budget">
+          <a [routerLink]="['/budget']" routerLinkActive="router-link-active">
+            <div class="dash-head">
+              <h3>Budget</h3>
+            </div>
+            
+          </a>
+      </div>
+      <div class="dash-btn calculator">
+          <a [routerLink]="['/calculator']" routerLinkActive="router-link-active">
+            <div class="dash-head">
+                <h3>Calculator</h3>
+              </div>  
+            </a>
+      </div>
+      <div class="dash-btn meme">
+          <a [routerLink]="['/meme']" routerLinkActive="router-link-active">
+            <div class="dash-head">
+              <h3>Meme Generator</h3>
+            </div>  
+          </a>
+      </div>
+  </div>
+
+</div>

@@ -1,0 +1,91 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+    .dashboard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .dash-btn {
+            width: 30%;
+            position: relative;
+            height: 0;
+            padding-bottom: 30%;
+            margin: 15px;
+            
+            a {
+                width: 100%;
+                height: 100%;
+                position: absolute; 
+                top: 0;
+                left: 0;
+                
+
+                .dash-head {
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    
+
+                    h3 {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: #f3f5f7;
+                        padding: 0;
+                    }
+
+                }
+            }
+        }
+
+        .meal {
+            background-color: #00c853;
+
+            .dash-head {
+                background-color: #009624;
+            }
+        }
+
+        .form {
+            background-color: #761fa2;
+
+            .dash-head {
+                background-color: #490072;
+            }
+        }
+
+        .budget {
+            background-color: #81d4fa;
+
+            .dash-head {
+                background-color: #4ba3c7;
+            }
+        }
+
+        .calculator {
+            background-color: #cfd8dc;
+
+            .dash-head {
+                background-color: #9ea7aa;
+            }
+        }
+
+        .meme {
+            background-image: linear-gradient( rgba(255, 0, 0, .75), rgba(255, 165,0, .75), rgba(255, 255, 0, 0.75), rgba(0, 128, 0, 0.75), rgba(0, 0, 255, 0.75), rgba(75, 0, 130, 0.75), rgba(238, 130, 238, 0.75));
+
+            a {
+                .dash-head {
+                    background-image: linear-gradient( rgba(255, 0, 0, .75), rgba(255, 165,0, 1));
+
+                    h3 {
+                        color: #000;
+    
+                    }
+                }
+            }
+            
+        }
+    }
+}

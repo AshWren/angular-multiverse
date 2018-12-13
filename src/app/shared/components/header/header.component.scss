@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    background-color: #29434e;
+    padding: 10px 0;
+    
+    
+    nav {
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #546e7a;
+
+        .nav-btn {
+            padding: 10px;
+            a {
+                margin: 5px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #fff;
+            }
+            
+        }
+
+        .nav-btn:hover {
+            background-color: #819ca9;
+        }
+    }
+}
