@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
+import { FormComponent } from './form/form/form.component';
 import { BudgetHomeComponent } from './budget/budget-home/budget-home.component';
 import { CalculatorHomeComponent } from './calculator/calculator-home/calculator-home.component';
 import { MealHomeComponent } from './meal/meal-home/meal-home.component';
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   { path: 'calculator', component: CalculatorHomeComponent },
   { path: 'meal', component: MealHomeComponent },
   { path: 'meme', component: MemeHomeComponent },
+  { path: 'form', component: FormComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 

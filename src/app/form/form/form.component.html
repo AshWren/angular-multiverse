@@ -1,0 +1,23 @@
+
+<app-header></app-header>
+<div class="heading">
+  <h2>Forms</h2>
+</div>
+<div class="container">
+  <div class="dash">
+      
+      <div class="dash-btn new">
+          <a [routerLink]="['new']">
+            <h3>Create New Form</h3>
+          </a>
+      </div>
+      <div class="dash-btn exist">
+          <a [routerLink]="['exist']">
+            <h3>Existing Forms</h3>
+          </a>
+      </div>
+  </div>
+
+</div>
+<router-outlet></router-outlet>
+
