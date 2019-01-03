@@ -24,7 +24,7 @@ import { FormModule } from './form/form.module';
     MealHomeComponent,
     MemeHomeComponent,
     BudgetHomeComponent,
-    CalculatorHomeComponent
+    CalculatorHomeComponent,
   ],
   imports: [
     BrowserModule,
